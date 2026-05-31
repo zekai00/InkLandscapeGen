@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+pillow
+pydantic
+qrcode[pil]
+requests
