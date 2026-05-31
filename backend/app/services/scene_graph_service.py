@@ -100,7 +100,7 @@ def analyze_scene_graph_by_rules(text: str) -> dict[str, Any]:
         "relations": relations,
         "layout": layout,
         "extracted_terms": extracted_terms,
-        "note": "当前系统演示版使用确定性规则进行轻量解析和补全，不等同于论文算法的完整训练式场景图扩充。",
+        "note": "当前系统演示版使用确定性规则进行轻量解析和补全，可继续接入训练式场景图扩充模块。",
     }
 
 

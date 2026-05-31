@@ -243,7 +243,7 @@
           <section class="panel link-panel">
             <div class="panel-heading">
               <div>
-                <p class="section-kicker">{{ t('thesisChain') }}</p>
+                <p class="section-kicker">{{ t('creativeChain') }}</p>
                 <h3>{{ t('editableSceneStructure') }}</h3>
               </div>
               <el-button class="icon-button" size="small" round @click="resetGraphDraft">
@@ -507,12 +507,12 @@ const I18N = {
     openOriginal: '打开原图',
     historyImage: '历史生成图像',
     emptyShowcase: '输入诗词并启动生成后，结果会保存在这里，也会进入历史记录和多图对比。',
-    thesisChain: '论文链路',
+    creativeChain: '创作链路',
     editableSceneStructure: '从数据到算法的可编辑场景结构',
     restoreParsed: '恢复解析结果',
-    chapter3: '第三章',
-    chapter4: '第四章',
-    chapter5: '第五章',
+    chapter3: '输入解析',
+    chapter4: '结构扩展',
+    chapter5: '生成控制',
     dataLayer: '数据层',
     semanticExpansion: '语义扩充',
     generationControl: '生成控制',
@@ -621,12 +621,12 @@ const I18N = {
     openOriginal: 'Open Image',
     historyImage: 'Generated image',
     emptyShowcase: 'Enter a poem and start generation. Results will appear here, then enter history and comparison.',
-    thesisChain: 'Thesis Pipeline',
+    creativeChain: 'Creative Pipeline',
     editableSceneStructure: 'Editable Scene Structure from Data to Algorithm',
     restoreParsed: 'Restore Parsed',
-    chapter3: 'Chapter 3',
-    chapter4: 'Chapter 4',
-    chapter5: 'Chapter 5',
+    chapter3: 'Input Parsing',
+    chapter4: 'Structure Expansion',
+    chapter5: 'Generation Control',
     dataLayer: 'Data Layer',
     semanticExpansion: 'Semantic Expansion',
     generationControl: 'Generation Control',

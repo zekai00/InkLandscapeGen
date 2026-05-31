@@ -15,4 +15,4 @@ frontend/dist/
 frontend/npm-debug.log*
 frontend/src/legacy/
 
-reports/*.tmp
+reports/
