@@ -2,7 +2,11 @@
 
 本目录存放论文第六章对应的前后端系统实现。系统面向中国山水画辅助创作场景，提供诗词输入、语义解析、场景结构编辑、异步生成任务、历史记录、多图对比、二维码分享和系统状态监控等功能。
 
-当前 `system` 目录不是 Git 仓库，也没有配置 GitHub remote。因此，截至本 README 生成时，本系统尚未从该目录直接上传到 GitHub。
+当前系统已作为独立仓库上传至 GitHub：
+
+```text
+https://github.com/zekai00/InkLandscapeGen
+```
 
 ## Directory
 
@@ -82,18 +86,14 @@ http://127.0.0.1:1024/
 VUE_APP_API_BASE=http://你的后端地址:8000 npm run build
 ```
 
-## GitHub Upload
+## GitHub
 
-如果需要上传到 GitHub，建议先确认仓库名称和公开性，然后在 `system` 目录执行：
+当前本地仓库位于：
 
 ```bash
 cd /root/Workspace/ControllableImageGeneration/system
-git init
-git add .
-git commit -m "Add Chinese landscape generation system"
-git branch -M main
-git remote add origin git@github.com:<user>/<repo>.git
-git push -u origin main
+git status
+git remote -v
 ```
 
-当前目录已提供 `.gitignore`，默认忽略 `.env`、前端构建产物、依赖目录和临时文件。提交前仍建议检查 `git status --short`，不要把真实 API Key 上传到公开仓库。
+当前目录已提供 `.gitignore`，默认忽略 `.env`、前端构建产物、依赖目录和临时文件。后续提交前仍建议检查 `git status --short`，不要把真实 API Key 上传到公开仓库。
